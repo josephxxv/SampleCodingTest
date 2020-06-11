@@ -110,5 +110,10 @@
       <Version>5.4.1.1</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\Buzz.jpg" />
+    <Resource Include="Images\Fizz.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
