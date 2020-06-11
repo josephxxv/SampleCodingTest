@@ -22,13 +22,7 @@
         <Border Grid.Row="2" BorderBrush="DarkGray" BorderThickness="1"/>
         <ScrollViewer Grid.Row="2" Margin="2" Background="Transparent">
             <ItemsControl ItemsSource="{Binding Results}" Background="Transparent">
-                <!-- TODO: Show results results here.
-                    The results should show with row colors alternating between LightGray and Gray
-                    "Fizz" results should be bold
-                    "Buzz" results should be italicized
-                    "number" results should be plain text
-                    "FizzBuzz" results should be both bold and italicized
-                -->
+             
             </ItemsControl>
         </ScrollViewer>
     </Grid>
